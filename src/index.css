@@ -1,11 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@200;300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
   margin: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Public Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+@layer components {
+  .nav-links {
+    @apply mx-3 cursor-pointer border-b-4 border-transparent py-5 transition duration-150 hover:border-green-500;
+  }
+
+  .mobile-nav-links {
+    @apply cursor-pointer hover:text-green-500 hover:underline;
+  }
+}
