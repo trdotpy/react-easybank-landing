@@ -1,5 +1,6 @@
 import React from 'react'
 import About from './components/About/About'
+import AboutTest from './components/About/AboutTest'
 import Cards from './components/Cards/Cards'
 import Footer from './components/Footer/Footer'
 import Hero from './components/Hero/Hero'
@@ -10,7 +11,8 @@ function App() {
     <div>
       <Navbar />
       <Hero />
-      <About />
+      {/* <About /> */}
+			<AboutTest />
       <Cards />
       <Footer />
     </div>
