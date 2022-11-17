@@ -7,7 +7,7 @@ import iconapi from '../../assets/icon-api.svg'
 export default function About() {
   return (
     <div className="my-24 bg-gray-50 px-4 text-center text-gray-400 sm:my-0 xl:text-left">
-      <div className="pt-24 text-center sm:my-20 md:ml-20 md:px-32 lg:px-52 xl:pl-10 xl:text-left">
+      <div className="container pt-24 text-center sm:my-20 md:px-32 lg:px-52 lg:text-left xl:pl-10">
         <h2 className="my-5 text-4xl text-slate-700">Why choose Easybank?</h2>
         <p className="text-slate-400">
           We leverage Open Banking to turn your bank account into your financial
@@ -39,6 +39,7 @@ export default function About() {
             when you’re close to hitting your limits.
           </p>
         </div>
+
         <div className="my-10 px-4 sm:m-0 sm:px-8 md:w-5/12 xl:w-80">
           <img
             src={icononboarding}

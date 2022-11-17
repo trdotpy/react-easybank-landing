@@ -46,19 +46,19 @@ export default function Footer() {
           <a href="#" className="cursor-pointer hover:underline">
             About Us
           </a>
-          <a href="#" className="cursor-pointer hover:underline">
+          <a href="#" className="cursor-pointer hover:text-green-500">
             Contact
           </a>
-          <a href="#" className="cursor-pointer hover:underline">
+          <a href="#" className="cursor-pointer hover:text-green-500">
             Blog
           </a>
-          <a href="#" className="cursor-pointer hover:underline">
+          <a href="#" className="cursor-pointer hover:text-green-500">
             Careers
           </a>
-          <a href="#" className="cursor-pointer hover:underline">
+          <a href="#" className="cursor-pointer hover:text-green-500">
             Support
           </a>
-          <a href="#" className="cursor-pointer hover:underline">
+          <a href="#" className="cursor-pointer hover:text-green-500">
             Privacy Policy
           </a>
         </div>

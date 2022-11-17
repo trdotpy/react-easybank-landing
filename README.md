@@ -1,5 +1,7 @@
 # Easybank Landing Page
 
+## <a href="https://react-easybank-landing.vercel.app/">Demo Link</a>
+
 ## Design Mockup
 
 <img src="./design/desktop-preview.jpg">
@@ -9,11 +11,11 @@
 <img src="./public/images/easybank-ss-1.png">
 <img src="./public/images/easybank-ss-3.png">
 
+---
+
 ## Overview
 
 This is my attempt at a coding challenge from Frontend Mentor. The goal of this challenge was to recreate a landing page based on the provided JPEG design files.
-
-## Live Demo
 
 ## Technology
 
