@@ -13,7 +13,7 @@ export default function Footer() {
       <div className="container grid grid-cols-1 justify-items-center gap-6 text-center lg:grid-cols-12 lg:gap-0">
         <div className="flex flex-col justify-between gap-y-4 lg:col-span-3 lg:justify-self-start">
           <img src={logowhite} alt="logo-white" className="mb-7" />
-          <div className="flex items-center justify-between text-white">
+          <div className="flex items-center justify-between gap-x-4 text-white">
             <img
               src={facebookIcon}
               alt="icon-facebook"
@@ -67,7 +67,7 @@ export default function Footer() {
           <button className="rounded-full bg-green-500 bg-gradient-to-r from-green-500 to-cyan-500 px-7 py-3 text-sm font-bold text-white hover:brightness-125 focus:outline-none focus:ring lg:block">
             Request Invite
           </button>
-          <p className="text-sm text-gray-400">
+          <p className="py-6 text-sm text-gray-400">
             © Easybank. All Rights Reserved
           </p>
         </div>
